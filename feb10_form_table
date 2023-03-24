@@ -1,0 +1,45 @@
+<html>
+    <head> 
+        <title> 
+            Registration
+        </title>
+    </head>
+    <body> 
+        <form action = "feb8.html"> 
+        <table> 
+            <tr> 
+            <th> First Name: </th> <td> <input type = "text">  </td> </tr>
+          <tr> <th> Mobile Number: </th><td> <input type = "number"> </td> </tr>
+           <tr> <th> Email ID:</th><td> <input type = "email"> </td> </tr>
+            <tr> <th> Password: </th> <td> <input type = "password"> </td> </tr>
+           <tr> <th> Gender: </th> <td> <input type = "radio"  name = "Gender" value = "male">M</td>
+                   <td>  <input type = "radio" name = "Gender" value = "female" >F </td> </tr>
+          <tr> <th> City: </th> <select> 
+               <td>  <option>Mumbai </option> </td>
+                <td> <option> New York </option> </td> 
+                <td> <option> Tokyo</option> </td> 
+               <td>  <option> London</option> </td> </tr>
+            </select><br> 
+          <tr> <th> Hobbies: </th>
+           <td> <input type = "checkbox" name = "Hobbies"value = "sing" > 
+            Singing <td>
+           <td> <input type = "checkbox" name = "Hobbies"value = "dance" > 
+            Dancing </td>
+            <td><input type = "checkbox" name = "Hobbies"value = "art"> 
+           Art </td>
+          <td> <input type = "checkbox" name = "Hobbies"value = "tennis"> 
+            Tennis </td>
+            <td> <input type = "checkbox" name = "Hobbies"value = "coding"> 
+            Coding </td>
+            <td> <input type = "checkbox" name = "Hobbies" value = "chess"> 
+            Chess </td>
+            <td> <input type = "checkbox" name = "Hobbies" value = "skiing"> 
+            Skiing </td> <tr>
+           <tr>  <td colspan = "2"> <input type = "submit">  
+             <input type = "reset"></td> </tr> 
+
+           
+        </table>
+        </form>
+    </body>
+</html>
